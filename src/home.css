@@ -1,0 +1,54 @@
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add margin at the top for space between title and containers */
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Add margin at the bottom for space between title and containers */
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin at the bottom for space between containers */
+  }
+  
+  .image-container {
+    min-width:50%;
+    max-width: 60%;
+    
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to images */
+    max-height: 330px;
+  }
+
+
+  
+  .text-container {
+    margin-left: 20px;
+  }
+  
+  .text-container h2 {
+    font-size: 1.5em;
+  }
+  
+  .text-container p {
+    font-size: 1em;
+  }
+  
+  .container {
+    border: 1px solid #000; /* Border for visibility during development */
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin between containers */
+    text-align: center;
+    height: 300px; /* Adjust the height as needed */
+  }
